@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1206px) {
+    .b1{
+        display: none;
+    }
+    .f1>h1{
+        transform: rotateZ(0deg);
+        position: relative;
+        bottom: 220px;
+       left: 20px;
+    }
+}
+@media only screen and (max-width: 870px){
+    .box3{
+        gap: 120px;
+     
+    }
+    .f1>h1{
+        position: relative;
+        bottom: 470px;
+        
+    }
+   .menu{
+    display: flex;
+    
+   }
+.nav1{
+    display: none;
+}
+.nav{
+    display: flex;
+   position: relative;
+left: 30px;
+   
+}
+}
+@media only screen and (max-width: 740px){
+    .f1>h1{
+        position: relative;
+        bottom: 730px;
+        left: 70px;
+}
+.nav{
+    display: flex;
+   position: relative;
+   left: 80px;
+}
+.box3{
+    position: relative;
+    left: 50px;
+}
+
+}
+@media only screen and (max-width: 500px) {
+    #maindiv{
+        width: 100%;
+        
+    }
+    .nav{
+        display: flex;
+       position: relative;
+       left: 150px;
+}
+
+}
+@media only screen and (max-width: 460px) {
+    #maindiv{
+        width: 100%;
+        
+    }
+    .box3{
+        position: relative;
+        left: 70px;
+    }
+    .nav{
+        display: flex;
+       position: relative;
+       left: 170px;
+}
+}
+@media only screen and (max-width: 403px) {
+    #maindiv{
+        width: 100%;
+        
+    }
+    .box3{
+        position: relative;
+        left: 80px;
+    }
+    .nav{
+        display: flex;
+       position: relative;
+       left: 200px;
+}
+}
